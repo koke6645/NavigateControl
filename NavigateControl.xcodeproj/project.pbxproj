@@ -14,6 +14,8 @@
 		8BA104151C6D03CC006F68D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA104131C6D03CC006F68D2 /* LaunchScreen.storyboard */; };
 		8BA104201C6D03CC006F68D2 /* NavigateControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1041F1C6D03CC006F68D2 /* NavigateControlTests.swift */; };
 		8BA1042B1C6D03CC006F68D2 /* NavigateControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1042A1C6D03CC006F68D2 /* NavigateControlUITests.swift */; };
+		8BA104391C6D05A2006F68D2 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA104381C6D05A2006F68D2 /* YellowViewController.swift */; };
+		8BA1043B1C6D079D006F68D2 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1043A1C6D079D006F68D2 /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8BA104261C6D03CC006F68D2 /* NavigateControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigateControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA1042A1C6D03CC006F68D2 /* NavigateControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateControlUITests.swift; sourceTree = "<group>"; };
 		8BA1042C1C6D03CC006F68D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA104381C6D05A2006F68D2 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		8BA1043A1C6D079D006F68D2 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				8BA1040A1C6D03CC006F68D2 /* AppDelegate.swift */,
 				8BA1040C1C6D03CC006F68D2 /* ViewController.swift */,
+				8BA104381C6D05A2006F68D2 /* YellowViewController.swift */,
+				8BA1043A1C6D079D006F68D2 /* BlueViewController.swift */,
 				8BA1040E1C6D03CC006F68D2 /* Main.storyboard */,
 				8BA104111C6D03CC006F68D2 /* Assets.xcassets */,
 				8BA104131C6D03CC006F68D2 /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA1040D1C6D03CC006F68D2 /* ViewController.swift in Sources */,
+				8BA104391C6D05A2006F68D2 /* YellowViewController.swift in Sources */,
+				8BA1043B1C6D079D006F68D2 /* BlueViewController.swift in Sources */,
 				8BA1040B1C6D03CC006F68D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
